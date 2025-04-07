@@ -1,0 +1,30 @@
+.table {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+  
+  .thead {
+    color: white;
+    background-color: #2a2a2a;
+  }
+  
+  .table th,
+  .table td {
+    border: 2px solid black;
+    padding: 4px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  .table tr:nth-child(2n + 2) {
+    background-color: #d3d3d3;
+  }
+  
+  .table th {
+    width: 33%;
+  }
+  
+  .table td:nth-child(3n),
+  .table td:nth-child(2n) {
+    text-align: center;
+  }
